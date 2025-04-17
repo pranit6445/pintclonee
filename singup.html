@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Sign-Up</title>
+    <link rel="icon" href="image/pinterestlogo.png" type="image/gif/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <i class="fa fa-pinterest" style="font-size:80px;"></i>
+        <h1>Welcome to Pinterest</h1>
+        <p>Find new ideas to try</p>
+        <form action="insert.php" method="post">
+            <input type="text" id="fullname" name="Name" placeholder="Your Name" required>
+            <input type="email" id="email" name="Email" placeholder="Email" required>
+            <input type="date" id="birthdate" name="Birth_Date" placeholder="" required>
+            <input type="password" id="password" name="Password" placeholder="Password" required>
+            <input type="password" id="repeat password" placeholder="Confirm Password" required>
+            <button type="submit" id="signup-button">Sign Up</button>
+        </form>
+        <p>OR</p>
+        <button id="facebook-button"><i class="fa fa-facebook"></i> Continue with Facebook</button>
+        <button id="google-button"><img src="Images/google3.png" alt="Google Icon"> Continue with Google</button>
+        <p id="terms">By continuing, you agree to Pinterest's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+        <hr>
+        <p>Already a member? <a href="login.html">Log in</a></p>
+    </div>
+</body>
+</html>

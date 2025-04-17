@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Create Pin - Pinterest Clone</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <nav class="links">
+            <a href="imaggall.html">Home</a>
+            <a href="Today.html">Today</a>
+            <a href="create.html" class="active">Create <i class="fa-solid fa-angle-down"></i></a>
+        </nav>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" aria-label="Search">
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-bell" title="Notifications"></i>
+            <i class="fa-sharp fa-solid fa-comment-dots" title="Messages"></i>
+            <a href="profil.php" title="Profile">
+                <i class="fa-solid fa-circle-user"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Form Section -->
+    <main>
+        <form action="create.php" method="POST" enctype="multipart/form-data">
+            <section class="content">
+                <h2 class="create-pin-header">Create Pin</h2>
+                <div class="form-container">
+                    <!-- Media Upload -->
+                    <div class="form-group">
+                        <label for="media">Media</label>
+                        <div class="upload-area">
+                            <p>Choose a file or drag and drop it here</p>
+                            <span aria-hidden="true">📤</span>
+                            <input type="file" id="media" name="Media" accept="image/*,video/*">
+                        </div>
+                    </div>
+
+                    <!-- Title -->
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <label for="Title">Title</label>
+                            <input type="text" id="title" name="Title" placeholder="Add a title" required>
+                        </div>
+
+                        <!-- Description -->
+                        <div class="form-group">
+                            <label for="Description">Description</label>
+                            <textarea id="description" rows="4" name="Description" placeholder="Add a detailed description" required></textarea>
+                        </div>
+
+                        <!-- Link -->
+                        <div class="form-group">
+                            <label for="Link">Link</label>
+                            <input type="url" id="link" name="Link" placeholder="Add a link" required>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit">Create</button>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

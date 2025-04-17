@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("Images/sigup.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.fa-pinterest {
+    font-size: 80px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#signup-button {
+    background-color: #a1081a;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#signup-button:hover {
+    background-color: #b00b1d;
+}
+
+#facebook-button, #google-button {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#facebook-button {
+    background-color: #1877F2;
+    color: white;
+}
+
+#facebook-button:hover {
+    background-color: #021838;
+}
+
+#google-button {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+#google-button img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#terms {
+    font-size: 12px;
+    color: #888;
+}
+
+#terms a {
+    color: #d50c22;
+    text-decoration: none;
+}
+
+#terms a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+    width: 100%;
+    background: #fff;
+    position: fixed;
+
+}
+.logo{
+    font-size: 32px;
+    color: red;
+}
+.links a{
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+}
+.search{
+    width: 800px;
+    height: 55px;
+    background: #e4e4e4;
+    border-radius: 80px;
+    padding: 0 20px;
+}
+.search i{
+    color: #555;
+}
+.search input{
+    border: none;
+    background: transparent;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    font-size: 26px;
+    color: #333;
+    margin:0 15px;
+    cursor: pointer;
+}

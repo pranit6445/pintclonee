@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Login</title>
+    <link rel="icon" href="Images/pinterestlogo.png" type="image/gif/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/
+    F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    
+    <div class="bdy">
+        <div class="grp">
+             <a id="button1" href="singup.html">Sign Up</a>
+            <div id="div1">
+                <i class="fa fa-pinterest"></i>
+                <p id="p1">Log in to see</p>
+                <p id="p2">more</p>
+                <form method="POST" action="login.php">
+                    <input id="email" type="email" name="Email" placeholder="Email" required><br>
+                    <input id="password" type="password" name="Password" placeholder="Password" required><br>
+                    <a id="a1" href="">Forgot your password?</a><br>
+                    <button id="button2" name="loginbutton">Log in</button>
+                </form>
+                <p id="p3">OR</p>
+                <button id="button3" name="continuewithfacebook">
+                    <i class="fa fa-facebook"></i>
+                    <label id="label1">Continue with Facebook</label>
+                </button>
+                <button id="button4" name="continuewithgoogle">
+                <!--<img id="google3" src="Images/google3.png" alt="">-->
+                    <label id="label2">Continue with Google</label>
+                </button> <br><br>
+                <label id="label3">By continuing, you agree to Pinterest's </label>
+                <a id="a2" href="https://policy.pinterest.com/en/terms-of-service" target="blank"><b>Terms of</b> <br> <b id="b1">Service,</b></a>
+                <a id="a2" href="https://policy.pinterest.com/en/privacy-policy" target="blank"><b>Privacy Policy.</b></a><br>
+                <hr id="hr1">
+                <a id="a3" href="singup.html">Not on Pinterest yet? Sign up</a>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

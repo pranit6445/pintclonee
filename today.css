@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-size: 18px;
+
+}
+
+.logo {
+    font-size: 32px;
+    color: red;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.links a:hover {
+    color: #555;
+}
+
+.links a.active {
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-offset: 4px;
+}
+
+.search {
+    width: 70%;
+    max-width: 800px;
+    min-width: 300px;
+    height: 55px;
+    background: #e4e4e4;
+    border-radius: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search i {
+    color: #555;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i {
+    font-size: 26px;
+    color: #333;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.icon i:hover {
+    color: #555;
+}
+
+.today-content {
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+.today-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.today-content p {
+    font-size: 18px;
+    color: #555;
+}
